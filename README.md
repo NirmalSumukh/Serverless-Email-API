@@ -79,7 +79,7 @@ email-api/
 ├── package.json # Dependencies
 └── README.md # This file
 
-text
+ 
 
 ---
 
@@ -101,12 +101,10 @@ text
 git clone https://github.com/NirmalSumukh/Serverless-Email-API.git
 cd Serverless-Email-API
 
-text
 
 **2. Install dependencies**
 npm install
 
-text
 
 **3. Set up environment variables**
 
@@ -117,14 +115,12 @@ EMAIL_PORT=587
 EMAIL_USER=your-email@gmail.com
 EMAIL_PASS=your-16-char-app-password
 
-text
 
 > **Note:** For Gmail, you need to generate an App Password at https://myaccount.google.com/apppasswords
 
 **4. Start the development server**
 npm start
 
-text
 
 The API will be available at `http://localhost:3000`
 
@@ -145,7 +141,6 @@ The API will be available at `http://localhost:3000`
 "body_text": "Your email message here"
 }
 
-text
 
 **Success Response (200):**
 {
@@ -158,7 +153,6 @@ text
 }
 }
 
-text
 
 **Error Response (400 - Validation Error):**
 {
@@ -170,15 +164,12 @@ text
 ]
 }
 
-text
-
 **Error Response (500 - Server Error):**
 {
 "success": false,
 "error": "Failed to send email. Please try again later."
 }
 
-text
 
 </div>
 
@@ -249,19 +240,16 @@ Click **Send Email** and watch the magic happen! ✨
 EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
 
-text
 
 **Outlook**
 EMAIL_HOST=smtp.office365.com
 EMAIL_PORT=587
 
-text
 
 **Custom SMTP**
 EMAIL_HOST=your-smtp-host.com
 EMAIL_PORT=587
 
-text
 
 </div>
 
@@ -289,7 +277,6 @@ text
 npm start # Start serverless offline
 npm run deploy # Deploy to AWS (requires AWS credentials)
 
-text
 
 ---
 
